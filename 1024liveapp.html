@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>精品社区</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="static/js/jquery.2.1.4.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Ads: 688000705 -->
+<script async="" src="static/js/js-AW-688000705.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-688000705');
+</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d3b2061ff3f191a8b822e23da67c3bcf";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    <script>
+        adaptation(750);
+
+        function adaptation(size) {
+            if (document.documentElement.clientWidth > size) {
+                document.documentElement.style.fontSize = size / 7.5 + "px"
+            } else {
+                document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px"
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="warp">
+    <div class="book-cont">
+        <div class="bg-box">
+            <img class="book-bg" src="static/picture/bg.jpg" alt="">
+            <div class="black"></div>
+        </div>
+        <div class="logo-box">
+            <div class="black"></div>
+            <div class="app-txt">
+                <div class="icon-txt">
+                    <img src="static/picture/logo.png">
+                    <i>1024Live</i>
+                    <span><em></em> (7974.17万人下载)</span>
+                </div>
+                <p>        1024Live是一款精品福利直播软件，为用户提供高品质福利包括：视频，直播，主播私聊，正妹自拍，充分满足您对精品福利的要求，妹纸多多，福利无限。</p>
+                <a class="book-btn downloadApp" href="javascript:;"><img src="static/picture/btn.gif"></a>
+            </div>
+            <div class="tips">
+                <ul>
+                    <li><i></i>91</li>
+                    <li><i></i>麻豆</li>
+                    <li><i></i>swag</li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright"></p><!--©版权需要时在</p>前添加文字-->
+    </div>
+</div>
+<script>
+        //判断系统下载地址
+        $(".downloadApp").click(function () {
+            var Ios = /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent),
+                An = /(Android)/i.test(navigator.userAgent),
+                IosUrl = 'https://smart.link/jco91dvwpf2er',//ios下载地址需替换1
+                AnUrl = 'https://smart.link/jco91dvwpf2er',//安卓下载地址需替换2
+                soft = $('.softDown');
+            if(Ios){
+                window.location.href = IosUrl;
+            } else {
+                window.location.href = AnUrl;
+            }
+        });
+	</script>
+</body>
+</html>

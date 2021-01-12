@@ -1,0 +1,46 @@
+body {background:#000;}
+body,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,p {margin:0;}
+body,h1,input,button,select,textarea {font-family:"Microsoft Yahei","PingFang SC","Helvetica Neue",serif;font-size:.28rem;color:#272727;}
+input,button,select,textarea {border:none;outline:none;}
+input,button,textarea,th,td {padding:0;}
+i,em,cite {font-style:normal;}
+ul,ol {padding:0;list-style:none;}
+img {vertical-align:top;border:none;}
+a {text-decoration:none;color:inherit;}
+
+.warp,.header{margin:0 auto;width:7.5rem;}
+.warp:after,.tips ul:after{content:'';display:table;clear:both;}
+.header{position:fixed;display:table;background:rgba(0,0,0,0.5);z-index:3;}
+.book-logo,.book-name,.book-down{display:table-cell;height:1.2rem;vertical-align:middle;}
+.book-logo{width:1rem;text-align:right;}
+.book-logo img{border-radius:.15rem;width:.8rem;height:.8rem;}
+.book-name{padding:0 .17rem;line-height:.26rem;font-size:.18rem;font-weight:300;color:#fff;}
+.book-name p:first-child{line-height:.5rem;font-size:.34rem;font-weight:bold;}
+.book-down{width:1rem;}
+.book-down img{margin-right:.2rem;width:1.73rem;}
+.book-cont{position:relative;min-height:13.34rem;}
+.book-bg{width:100%;}
+.bg-box{position:relative;}
+.black{position:absolute;bottom:0;width:100%;height:2rem;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));}
+.logo-box .black{top:-2rem;}
+.logo-box{position:absolute;bottom:0;width:100%;background-color:#000;}
+.app-txt{margin:.2rem;padding:.4rem .2rem 0;background-color:#ededed;border-radius:.2rem;height:4rem;}
+.app-txt .icon-txt{position:relative;padding-left:1.4rem;}
+.app-txt .icon-txt img{position:absolute;left:0;width:1.2rem;border-radius:.1rem;}
+.app-txt .icon-txt i{display:block;padding-top:.1rem;font-size:.4rem;}
+.app-txt .icon-txt em{display:inline-block;width:2.36rem;height:.3rem;line-height:.34rem;background:url("../image/stars.png") 0 -.1rem no-repeat;background-size:2.5rem .9rem;}
+.app-txt .icon-txt span{display:block;margin-top:.2rem;font-size:.26rem;}
+.app-txt p{margin-top:.2rem;white-space:pre-wrap;}
+.tips{margin-bottom:.2rem;text-align:center;}
+.tips ul{display:inline-block;}
+.tips li{float:left;padding:0 .16rem;text-align:center;color:#444;}
+.tips li i{display:inline-block;margin:0 .02rem;vertical-align:middle;width:.36rem;height:.36rem;background:url("../image/stars.png") 0 -.46rem no-repeat;background-size:2.5rem .9rem;}
+.tips li:nth-child(2) i{background-position:-.46rem -.46rem;}
+.tips li:last-child i{background-position:-.97rem -.48rem;}
+
+.book-btn{display:block;margin:.2rem auto;width:5rem;height:.82rem;}
+.book-btn img{width:100%;border-radius:.41rem;}
+.copyright{position:absolute;bottom:.5rem;width:100%;text-align:center;font-size:.2rem;color:#777;}
+
+.go-body{background-color:#f2f2f2;}
+.go-bg{display:block;margin:0 auto;width:7.5rem;}
